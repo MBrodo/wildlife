@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 120px 0px 120px;
+    height: 60px;
+    align-items: center;
+}
+
+footer {
+    background-color: #181617;
+    background-image: url(assets/footer.jpg);
+    height: 359px;
+    color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.herosection {
+    height: 779px;
+    position: relative;
+    color: #f7f7f7;
+    background-color: #02160b;
+    background-image: url(assets/hero.png);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    width: 240px;
+}
+
+.logo-pic {
+    margin-right: 15px;
+    width: 70px;
+    height: 60px;
+}
+
+.wildlogo {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+
+.link {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.bnt-search {
+    height: 32px;
+    width: 32px;
+}
+
+.nav-signin {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #f7f7f7;
+    border: 2px solid #cd6326;
+    border-radius: 5px;
+    padding: 9px 24px;
+    text-decoration: none;
+}
+
+.nav-signin:hover {
+    background: #cd6326;
+    border: 2px solid transparent;
+}
+
+.nav-signin:active {
+    background: #8f5613;
+    border: 2px solid transparent;
+}
+
+.survival {
+    width: 274px;
+    height: 340px;
+    margin-left: 120px;
+    margin-top: 120px;
+    margin-bottom: 240px;
+}
+
+.title-surv {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #cd6326;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    margin: 0px;
+    -webkit-text-stroke: 1px black;
+}
+
+.text-surv {
+    width: 274px;
+    height: 108px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f7f7f7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 49px;
+    margin-top: 51px;
+}
+
+.btn-donation {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #f7f7f7;
+    background: #cd6326;
+    border-radius: 5px;
+    border: 0px solid #cd6326;
+    text-align: center;
+    padding: 16px 43px;
+    cursor: pointer;
+}
+
+.btn-donation:hover {
+    background: #e39128;
+    border: none;
+    outline: none;
+}
+
+.btn-donation:active {
+    background: #8f5613;
+    border: none;
+    outline: none;
+}
+
+.mainsection {
+    background-color: #cccccc;
+    height: 1368px;
+    text-align: center;
+}
+
+.lastarticles {
+    padding-top: 120px;
+}
+
+.lastarticles-title {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.lastarticles-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+    margin: 0px;
+}
+
+.wildnews {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    width: 1200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+.wildnews > li {
+    position: relative;
+    height: 360px;
+    margin-bottom: 0px;
+}
+
+.newsarr {
+    height: 70px;
+    width: 30px;
+    margin-top: 145px;
+}
+
+.newsarr-anim {
+    transition: 0.5s;
+}
+
+.newsarr:hover {
+    -webkit-transform: scale(1.3);
+    -ms-ransform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.newstext {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #f7f7f7;
+    margin: 0px;
+    top: 247px;
+    right: 57px;
+    width: 186px;
+    height: 73px;
+}
+
+.newstext > h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    margin: 0px;
+}
+
+.newstext > p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notifysub {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+    margin-top: 239px;
+    margin-bottom: 60px;
+}
+
+.notifycont {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 240px;
+    height: 60px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.notifybtn {
+    background: #cd6326;
+    border: 1px solid #cd6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    text-align: center;
+    color: #f7f7f7;
+    height: 62px;
+    width: 122px;
+    padding: 17px 34px;
+    cursor: pointer;
+}
+
+.notifybtn:hover {
+    background: #e39128;
+    border: none;
+    outline: none;
+}
+
+.notifybtn:active {
+    background: #8f5613;
+    border: none;
+    outline: none;
+}
+
+.notifyemail {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #666666;
+    border-right: 0px solid #666666;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 58px;
+    width: 525px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.pic-links {
+    list-style-type: none;
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.footerpic {
+    height: 40px;
+    width: 40px;
+}
